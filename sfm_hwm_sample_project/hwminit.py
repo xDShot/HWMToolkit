@@ -4,7 +4,7 @@ import sys, bpy
 
 # Expose the HWMTK pyfiles to the interpreter
 # Path to the HWMTK folder relative to the .blend file
-sys.path.append(bpy.path.abspath('//hwmtk\\'))
+sys.path.append(bpy.path.abspath('//hwmtk'))
 
 # Enable the Soft Blend from Shape op
 import op_softblend
